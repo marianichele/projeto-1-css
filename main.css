@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    background-image: url("images/rectangle1.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    width: 100%;
+    height: 800px;
+}
+
+
+strong {
+    color: #F78065;
+}
+
+header {
+    display: flex;
+    flex-flow: row;
+}
+
+header a img {
+    padding: 38px 0 0 112px;
+}
+
+header div img {
+    padding: 28px 132px 0 1078px;
+}
+
+.explore {
+    position: absolute;
+
+    background: white;
+
+    box-shadow: 0 4px 100px rgba(0, 0, 0, 0.1);
+
+    width: 741px;
+    height: 537px;
+    margin-top: 341px;
+    margin-left: 60px;
+    padding: 70px;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+.explore h1 {
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    font-size: 39px;
+
+    padding: 64px 68px 16px 0;
+}
+
+.explore p {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.6);
+
+    padding: 16px 68px 38px 0;
+}
+
+.explore_button span {
+    margin-left: 8px;
+}
+
+.explore_button {
+    width: 250px;
+    height: 65px;
+
+    background: #F78065;
+
+    color: white;  
+    font-size: 18px;
+    font-weight: bold;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+
+    border: none;
+}
