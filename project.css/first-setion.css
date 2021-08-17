@@ -1,15 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
-*, html, body {
-    margin: 0;
-    padding: 0;
-
-    box-sizing: border-box;
-}
 
 #container {
-    background-image: url("images/rectangle1.png") ;
+    background-image: url("../images/rectangle1.png") ;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -58,7 +49,7 @@ header div img {
 
 .first-setion h1 {
     font-family: 'Merriweather', serif;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 39px;
 
     margin: 64px 68px 16px 15px;
@@ -96,65 +87,3 @@ header div img {
     margin-left: 15px;
 }
 
-.second-section {
-    display: flex;
-    align-content: space-between;
-
-    margin-top: 470px;
-    margin-left: 90px; 
-    margin-bottom: 253px;
-
-    width: 40%;
-}
-
-.second-section div {
-    padding: 0 35px;
-}
-
-.second-section img {
-    margin: 84px 0;
-}
-
-.second-section h1 {
-    font-size: 24px;
-    font-weight: bold;
-    color: #000000;
-
-    margin-bottom: 20px;
-}
-
-.second-section p {
-    font-size: 16px;
-    color: rgba(0, 0, 0, 0.5);
-
-    margin-bottom: 20px;
-}
-
-.second-section a {
-    font-size: 18px;
-    color: #F78065;
-    text-decoration: none;
-}
-
-.third-section {
-    display: flex;
-    flex-flow: column;
-
-    margin-left: 100px;
-}
-
-.third-section_contents {
-    display: flex;
-
-    justify-content: space-between;
-}
-
-.third-section_title {
-    font-weight: 700;
-    font-size: 36px;
-}
-
-.third-section img {
-    margin-top: 114px;
-    margin-bottom: 69px;
-}
