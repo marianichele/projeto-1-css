@@ -4,6 +4,7 @@
 *, html, body {
     margin: 0;
     padding: 0;
+
     box-sizing: border-box;
 }
 
@@ -14,7 +15,9 @@
     background-repeat: no-repeat;
 
     width: 100%;
-    height: 800px;
+    height: 69.5vh;
+
+    position: relative;
 }
 
 
@@ -28,42 +31,44 @@ header {
 }
 
 header a img {
-    padding: 38px 0 0 112px;
+    margin: 38px 0 0 130px;
 }
 
 header div img {
-    padding: 28px 132px 0 1078px;
+    margin: 28px 0 0 750px;
 }
 
-.explore {
+.first-setion {
     position: absolute;
 
     background: white;
 
     box-shadow: 0 4px 100px rgba(0, 0, 0, 0.1);
 
-    width: 741px;
-    height: 537px;
-    margin-top: 341px;
-    margin-left: 60px;
-    padding: 70px;
+    width: 600px;
+    height: 440px;
+
+    margin-top: 300px;
+    margin-left: 60px; 
+    margin-bottom: 200px;
+    padding: 10px;
 
     font-family: 'Montserrat', sans-serif;
 }
 
-.explore h1 {
+.first-setion h1 {
     font-family: 'Merriweather', serif;
     font-weight: bold;
     font-size: 39px;
 
-    padding: 64px 68px 16px 0;
+    margin: 64px 68px 16px 15px;
 }
 
-.explore p {
+.first-setion p {
     font-size: 20px;
     color: rgba(0, 0, 0, 0.6);
 
-    padding: 16px 68px 38px 0;
+    margin: 16px 68px 38px 15px;
 }
 
 .explore_button span {
@@ -87,17 +92,27 @@ header div img {
     align-content: space-between;
 
     border: none;
+
+    margin-left: 15px;
 }
 
 .second-section {
-    width: 386px;
-    height: 224px;
-
     display: flex;
-    flex-flow: row;
-    justify-content: center;
-    align-items: center;
     align-content: space-between;
+
+    margin-top: 470px;
+    margin-left: 90px; 
+    margin-bottom: 253px;
+
+    width: 40%;
+}
+
+.second-section div {
+    padding: 0 35px;
+}
+
+.second-section img {
+    margin: 84px 0;
 }
 
 .second-section h1 {
@@ -105,16 +120,41 @@ header div img {
     font-weight: bold;
     color: #000000;
 
-    padding: 169px 
-
+    margin-bottom: 20px;
 }
 
 .second-section p {
     font-size: 16px;
     color: rgba(0, 0, 0, 0.5);
+
+    margin-bottom: 20px;
 }
 
 .second-section a {
     font-size: 18px;
     color: #F78065;
+    text-decoration: none;
+}
+
+.third-section {
+    display: flex;
+    flex-flow: column;
+
+    margin-left: 100px;
+}
+
+.third-section_contents {
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.third-section_title {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.third-section img {
+    margin-top: 114px;
+    margin-bottom: 69px;
 }
