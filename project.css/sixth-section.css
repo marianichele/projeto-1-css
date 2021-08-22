@@ -1,0 +1,92 @@
+.main-footer {
+    display: flex;
+    flex-flow: column;
+
+    background: #F7F7F7;
+}
+
+.main-footer a {
+    text-decoration: none;
+}
+
+.sixth-section_contents {
+    display: flex;
+    flex-flow: row;
+}
+
+.sixth-section_title {
+    font-family: 'Merriweather', serif;
+
+    margin-left: 6.4rem;
+}
+
+.sixth-section_title h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+
+    margin: 6rem 0 1rem 0;
+}
+
+.sixth-section_title p {
+    font-size: 3rem;
+    font-weight: 700;
+
+    margin-right: 9.9rem;
+    margin-bottom: 5.3rem;
+
+    width: 19rem;
+
+    color: #000000;
+}
+
+.sixth-section_content h1 {
+    font-size: 1.125rem;
+    font-weight: 700;
+
+    margin: 6rem 6.9rem 1.5rem 0;
+}
+
+.sixth-section_content a {
+    display: flex;
+    flex-flow: column;
+
+    font-size: 0.9rem;
+    font-weight: 400;
+
+    margin-bottom: 1.5rem;
+
+    color: #000000;
+}
+
+hr {
+    width: 73.3rem;
+
+    margin-left: 6.5rem;
+    margin-bottom: 1.75rem;
+
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.sixth-section_footer {
+    display: flex;
+    flex-flow: row;
+
+    font-size: 0.9rem;
+
+    margin-bottom: 4rem;
+}
+
+#sixth-section_rights {
+    margin-left: 6.25rem;
+}
+
+#sixth-section_links {
+    margin-left: 33rem;
+}
+
+#sixth-section_links a {
+    margin-right: 3rem;
+
+    color: #000000;
+}
+

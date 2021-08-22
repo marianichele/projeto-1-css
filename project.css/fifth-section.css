@@ -1,0 +1,52 @@
+.fifth-section {
+    display: flex;
+    flex-flow: column;
+
+    margin-bottom:  15.7rem;
+    margin-left: 6.25rem;
+}
+
+.fifth-section_contents {
+    display: flex;
+    justify-content: space-between;
+
+    margin-right: 6.25rem;
+}
+
+.fifth-section_content {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.fifth-section_title {
+    font-size: 2.25rem;
+    font-weight: 700;
+
+    margin-bottom: 6.75rem;
+}
+
+.fifth-section_content img {
+    width: 2rem;
+    height: 2rem;
+    
+    margin-bottom: 3.9rem;
+}
+
+.fifth-section_content h1 {
+    font-size: 1.4rem;
+    font-weight: 700;
+
+    margin-right: 2.6rem;
+    margin-bottom: auto;
+}
+
+.fifth-section_content p {
+    font-size: 0.9rem;
+    font-weight: 500;
+
+    color: rgba(0, 0, 0, 0.5);
+
+    margin-top: 3.25rem;
+    margin-right: 2.6rem;
+}
