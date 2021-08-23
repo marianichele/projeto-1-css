@@ -1,0 +1,125 @@
+#container {
+    background-image: url("../images/rectangle1.png") ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 90%;
+    height: 27vh; 
+
+
+    position: relative;
+}
+
+strong {
+    color: #F78065;
+}
+
+header {
+    display: flex;
+    flex-flow: column;
+}
+
+header a img {
+    margin: 1rem 0 0 1.7rem;
+    width: 2rem;
+}
+
+header div img {
+    margin: 1rem 0 0 1rem;
+    width: 3.7rem;
+}
+
+.first-setion {
+    position: absolute;
+
+    width: 80%;
+    height: 34rem;
+
+    margin: 11rem 0.5rem;
+
+    padding: 0.5rem; 
+}
+
+.first-setion h1 {
+    font-weight: 700;
+    font-size: 2rem;
+
+    margin: 0rem 0.5rem;
+}
+
+.first-setion p {
+    font-size: 1.25rem;
+    color: rgba(0, 0, 0, 0.6);
+
+    margin: 2rem 0.5rem;
+}
+
+.explore_button span {
+    margin-left: 0.5rem;
+}
+
+.explore_button {
+    width: 15.6rem;
+    height: 4rem;
+
+    background: #F78065;
+
+    color: white;  
+    font-size: 1.125rem;
+    font-weight: bold;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+
+    border: none;
+
+    margin-left: 2.2rem;
+}
+
+@media (min-width: 40rem) {
+    #container {
+     width: 100%;
+     height: 50vh;
+    }
+
+    header {
+        display: flex;
+        flex-flow: row;
+    }
+    
+    header a img {
+        margin: 2rem 0 0 6.75rem;
+    }
+    
+    header div img {
+        margin: 1.75rem 0 0 72rem;
+    }
+
+    .first-setion {
+        background: white;
+
+        box-shadow: 0 0.25rem 6.25rem rgba(0, 0, 0, 0.1);
+
+        width: 45rem;
+        height: 34rem;
+    
+        margin: 11.25rem 0 12.5rem 3.75rem;
+    
+        padding: 1.7rem;
+    }
+  
+    .first-setion h1 {
+        font-size: 2.4rem;
+
+        margin: 6.25rem 7.5rem 0 2.2rem;
+    }
+
+    .first-setion p {
+        margin: 1.6rem 7.5rem 1.6rem 2.2rem;
+    }
+
+ } 
