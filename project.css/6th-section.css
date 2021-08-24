@@ -1,6 +1,5 @@
 .main-footer {
-    display: flex;
-    flex-flow: column;
+    margin: 0 1rem;
 
     background: #F7F7F7;
 }
@@ -9,32 +8,31 @@
     text-decoration: none;
 }
 
-.sixth-section_contents {
+.sixth-section_content {
+    width: 100%;
+
     display: flex;
-    flex-flow: row;
+    flex-flow: column;  
 }
 
 .sixth-section_title {
     font-family: 'Merriweather', serif;
 
-    margin-left: 6.4rem;
+    margin: auto;
 }
 
 .sixth-section_title h1 {
     font-size: 1.5rem;
     font-weight: 700;
 
-    margin: 6rem 0 1rem 0;
+    margin: 6rem auto 1rem auto;
 }
 
 .sixth-section_title p {
     font-size: 3rem;
     font-weight: 700;
 
-    margin-right: 9.9rem;
-    margin-bottom: 5.3rem;
-
-    width: 19rem;
+    margin: 3rem auto;
 
     color: #000000;
 }
@@ -43,50 +41,108 @@
     font-size: 1.125rem;
     font-weight: 700;
 
-    margin: 6rem 6.9rem 1.5rem 0;
+    margin: 6rem auto 2rem auto;
 }
 
 .sixth-section_content a {
-    display: flex;
-    flex-flow: column;
-
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     font-weight: 400;
 
-    margin-bottom: 1.5rem;
+    margin: 0 auto 1.5rem auto;
 
     color: #000000;
 }
 
 hr {
-    width: 73.3rem;
+    width: 90%;
 
-    margin-left: 6.5rem;
-    margin-bottom: 1.75rem;
+    margin: 1.75rem 0 1.75rem 1.5rem;
 
     color: rgba(0, 0, 0, 0.2);
 }
 
-.sixth-section_footer {
-    display: flex;
-    flex-flow: row;
-
+.sixth-section_footers {
     font-size: 0.9rem;
 
     margin-bottom: 4rem;
 }
 
-#sixth-section_rights {
-    margin-left: 6.25rem;
+.sixth-section_footer {
+    display: flex;
+    flex-flow: column;  
 }
 
-#sixth-section_links {
-    margin-left: 33rem;
+#sixth-section_rights {
+    font-size: 1.2rem;
+
+    margin: auto;
+
+    padding-bottom: 3rem;
 }
 
 #sixth-section_links a {
-    margin-right: 3rem;
+    font-size: 1.2rem;
+
+    margin: auto;
 
     color: #000000;
 }
 
+@media (min-width: 40rem) {
+    .main-footer {
+        display: flex;
+        flex-flow: column;
+    }
+    
+    .sixth-section_contents {
+        display: flex;
+        flex-flow: row;
+    }
+    
+    .sixth-section_title {
+        margin-left: 6.4rem;
+
+        width: 19rem;
+    }
+    
+    .sixth-section_content a {
+        display: flex;
+        flex-flow: column;
+    
+        font-size: 0.9rem;
+        font-weight: 400; 
+    }
+    
+    hr {
+        width: 80rem;
+    
+        margin: 0 0 1.75rem 6.5rem;
+    }
+    
+    .sixth-section_footers {
+        display: flex;
+        flex-flow: row;
+    }
+    
+    #sixth-section_rights {
+        font-size: 0.9rem;
+        font-weight: 400; 
+
+        margin-left: 6.25rem;
+    }
+    
+    #sixth-section_links {
+        display: flex;
+        flex-flow: row;  
+        
+        margin-left: 33rem;
+    }
+
+    #sixth-section_links a { 
+        font-size: 0.9rem;
+        font-weight: 400; 
+
+        margin-right: 3rem;
+    }
+    
+}

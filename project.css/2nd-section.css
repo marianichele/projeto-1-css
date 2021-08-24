@@ -1,18 +1,16 @@
 .second-section {
-    margin: 40rem 1rem 10rem 1rem;
+    margin: 40rem 0.5rem 10rem 1rem;
 }
 
 .second-section div {
-    width: 70%;
+    width: 100%;
     height: auto;
 
-    margin: 3.5rem 0rem;
-
-    padding: 0.5rem; 
+    margin: 3.5rem auto;
 }
 
 .second-section img {
-    margin: 2rem 0;
+    margin: 2rem auto;
 }
 
 .second-section h1 {
@@ -25,7 +23,7 @@
 }
 
 .second-section p {
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 500;
 
     color: rgba(0, 0, 0, 0.5);
@@ -49,7 +47,11 @@
     
         margin: 25rem 0 16rem 3.125rem;
     }
-    
+
+    .second-section p {
+        font-size: 1rem
+    }
+
     .second-section div {
         padding: 0 1.6rem;
     
