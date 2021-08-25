@@ -80,6 +80,35 @@
 @media (min-width: 40rem) {
     .fourth-section {
         display: flex;
+        flex-flow: row;
+        
+        margin: 16.5rem 0 0 6.25rem;
+        margin-left: 6.25rem;
+        margin-top: 16.5rem;
+    }
+
+    .fourth-section_text h1 {
+        width: 20.3rem;
+        height: 10.7rem;
+
+        margin: 0 8rem 4rem 0;
+    }
+
+    .fourth-section_text p {
+        width: 20.3rem;
+        height: 2rem;
+
+        font-size: 1.125rem;
+
+        margin-bottom: 5rem;
+    }
+
+    .fourth-section_images {
+        margin-left: 3rem;
+    }
+
+    /* .fourth-section {
+        display: flex;
         flex-direction: row;
 
         margin-left: 3rem;
@@ -119,5 +148,5 @@
         font-size: 0.875rem;
 
         margin-bottom: 0.7rem;
-    }
+    }  */
 }
