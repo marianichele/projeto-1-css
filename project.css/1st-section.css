@@ -21,37 +21,36 @@ header {
 
 header a img {
     margin: 1rem 0 0 1.7rem;
+
     width: 2rem;
 }
 
 header div img {
     margin: 1rem 0 0 1rem;
+
     width: 3.7rem;
 }
 
 .first-setion {
-    position: absolute;
-
-    width: 100%;
-    height: 34rem;
-
-    margin: 11rem 1rem;
-
-    padding: 0.5rem; 
+    margin: 12rem 1rem;
 }
 
 .first-setion h1 {
     font-weight: 700;
     font-size: 2rem;
 
-    margin: 5rem auto;
+    text-align: center;
+
+    margin: 3rem auto;
 }
 
 .first-setion p {
     font-size: 1.25rem;
     color: rgba(0, 0, 0, 0.6);
 
-    margin: 2rem auto;
+    margin: 3rem auto;
+
+    text-align: justify;
 }
 
 .explore_button span {
@@ -82,7 +81,7 @@ header div img {
 @media (min-width: 40rem) {
     #container {
      width: 100%;
-     height: 50vh;
+     height: 80vh;
     }
 
     header {
@@ -95,7 +94,10 @@ header div img {
     }
     
     header div img {
-        margin: 1.75rem 0 0 72rem;
+        /* display: flex;
+        flex-flow: column-reverse; */
+
+        margin: 1.75rem 0 0 80em;
     }
 
     .first-setion {
@@ -105,20 +107,25 @@ header div img {
 
         width: 45rem;
         height: 34rem;
+
     
-        margin: 11.25rem 0 12.5rem 3.75rem;
+        margin: 19rem 0 12.5rem 3.75rem;
     
         padding: 1.7rem;
     }
   
     .first-setion h1 {
         font-size: 2.4rem;
+        
+        text-align: left;
 
         margin: 6.25rem 7.5rem 0 2.2rem;
     }
 
     .first-setion p {
         margin: 1.6rem 7.5rem 1.6rem 2.2rem;
+
+        text-align: left;
     }
 
     .explore_button {
