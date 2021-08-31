@@ -85,7 +85,7 @@
         display: flex;
         flex-flow: column;
 
-        width: 35%;
+        width: 40%;
 /* 
         margin-right: 4rem; */
     }
@@ -112,7 +112,7 @@
     }
 
     .third-section_margin {
-        margin-right: 2rem;
+        margin-right: 3rem;
     }
 
     .third-section_contents h1 {

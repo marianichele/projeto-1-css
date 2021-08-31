@@ -96,10 +96,15 @@
 
     .fourth-section_text {
         padding-left: 2rem;
+
+        margin: 0 2rem
     }
 
     .fourth-section_text h1 {
-        width: 40%;
+        width: 60%;
+
+        margin-top: 2rem;
+
         /* height: 10.7rem; */
 
         /* margin: 0 8rem 4rem 0; */
@@ -114,31 +119,38 @@
     }
 
     .fourth-section_text p {
-        width: 40%;
+        width: 70%;
         /* height: 2rem; */
 
         font-size: 1.125rem;
 
-        margin-bottom: 8.6rem;
+        text-align: left;
+
+        margin-bottom: auto;
     }
 
     .fourth-section_images {
         /* margin: 0 0 0 3rem; */
-        /* margin: 100%; */
-        margin-left: 2rem;
+        margin-left: 3rem;
+
+        width: 50%;
+        
+        padding: 1rem;
     }
 
     .fourth-section_images h1,
     .fourth-section_images p,
     .fourth-section_images a{
         text-align: left;
+
+        margin-left: 1rem;
     }
 
     .start_button {
         display: block;
         align-items: left;
 
-        margin: 5rem 0 0 0; 
+        margin: 5.5rem 0; 
     }
 
     .start_button span {

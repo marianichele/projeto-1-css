@@ -42,6 +42,8 @@
 
 .sixth-section_content {
     text-align: center;
+
+    margin-bottom: 3rem;
 }
 
 .sixth-section_content h1 {
@@ -64,8 +66,8 @@ hr {
     width: 90%;
 
     display: block;
-    margin: auto;
-
+    margin: auto;   
+    
     color: rgba(0, 0, 0, 0.2);
 }
 
@@ -82,18 +84,21 @@ hr {
     text-align: center;
 }
 
+
 #sixth-section_rights {
     font-size: 1.2rem;
 
     margin: auto;
 
-    padding-bottom: 3rem;
+    padding-bottom: 4rem;
 }
 
 #sixth-section_links a {
     font-size: 1.2rem;
 
     margin: 0rem 1rem;
+
+    line-height: 2.5rem;
 
     color: #000000;
 }
@@ -117,16 +122,24 @@ hr {
         display: flex;
         flex-flow: row;
 
-        margin-left: 8rem;
+        margin: 3rem 0 0 7rem;
+
+        padding: 0 2rem;
+
+        width: 70%;
+
+        /* margin-left: 8rem; */
     }
     
     .sixth-section_title {
         display: flex;
         flex-flow: column;
 
-        margin: 0 0 0 6.4rem;
+        /* margin: 0 0 0 6.4rem; */
 
-        width: 19rem;
+        padding: 0 5rem;
+
+        width: 20%;
     }
 
     .sixth-section_title h1,
@@ -135,7 +148,11 @@ hr {
     }
 
     .sixth-section_content {
-        margin: 3rem 9rem 0 0;
+        /* margin: 3rem 9rem 0 0; */
+
+        padding: 0 2rem;
+
+        width: 80%;
     }
 
     .main-footer_1st {
@@ -156,42 +173,72 @@ hr {
     }
 
     .sixth-section_content h1 {
-        width: 13rem;
-
         text-align: left;
     }
      
     hr {
-        width: 81rem;
-    
-        margin: 0 6.3rem 0 6.25rem;
+        width: 90%;
     }
-    
+
     .main-footer_2nd {
         display: flex;
         flex-flow: row;
+
+        margin-bottom: 0;
     }
 
     #sixth-section_rights { 
         font-size: 0.9rem;
         font-weight: 400; 
 
-        margin: 3rem 0 0 6.25rem; 
+        /* margin: 3rem 0 0 6.25rem;  */
     }
     
     #sixth-section_links {
         display: flex;
         flex-flow: row;  
        
-        margin: 0 0 0 36rem; 
+        /* margin: 0 0 0 36rem;  */
     }
 
     #sixth-section_links a { 
         font-size: 0.9rem;
         font-weight: 400; 
 
-        margin-right: 3rem; 
+        /* margin-right: 3rem;  */
     }
 
-    
+    .main-footer_2nd {
+        display: flex;
+        flex-flow: row;
+
+        width: 90%;
+
+        padding: 0 auto;
+    }
+
+    #sixth-section_rights { 
+        font-size: 0.9rem;
+        font-weight: 400; 
+
+        margin-left: 3.5rem; 
+
+        /* margin: 3rem 0 0 6.25rem;  */
+    }
+
+    #sixth-section_links {
+        display: flex;
+        flex-flow: row;
+
+        /* margin: 0 0 0 36rem;  */
+    }
+
+    #sixth-section_links a { 
+        font-size: 0.9rem;
+        font-weight: 400; 
+
+        /* margin-right: 3rem;  */
+    }
+
+
 }
