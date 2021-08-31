@@ -52,17 +52,21 @@
 @media (min-width: 40rem) {
     .second-section {
         display: flex;
-        align-content: space-between;
+        justify-content: space-between;
     
-        margin: 20rem 0 16rem 5rem;
+        margin: 10rem auto;
+
+        padding: 0 8rem;
     }
 
     .second-section h1 {
+        font-size: 1.6rem;
+
         text-align: left;
-    }
+    }   
 
     .second-section img {
-        margin: 12.7rem 0 5.25rem 0;
+        margin-bottom: 5.25rem;
     }
 
     .second-section p {
@@ -72,13 +76,15 @@
     }
 
     .second-section a {
+        font-size: 1rem;
+
         text-align: left;
     }
 
     .second-section div {
-        width: 26.5rem;
-        height: 14rem;
-    
-        margin: 0 3rem 25rem 0.6rem;
+        margin-right: 4rem;
+        
+        width: 35%;
     }
+
 }

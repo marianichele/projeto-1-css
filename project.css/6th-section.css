@@ -117,8 +117,7 @@ hr {
         display: flex;
         flex-flow: row;
 
-        margin: 0 6.8rem 0 12em;
-
+        margin-left: 8rem;
     }
     
     .sixth-section_title {
@@ -138,7 +137,6 @@ hr {
     .sixth-section_content {
         margin: 3rem 9rem 0 0;
     }
-
 
     .main-footer_1st {
         display: flex;
