@@ -10,6 +10,27 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+a {
+    cursor: pointer;
+}
+
 h1 {
     font-family: 'Merriweather', serif;
+
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+/* a {
+    display: block;
+    margin: auto;
+} */
+
+@media (min-width: 40rem) {
+    h1, p {
+        text-align: left;
+    }
 }

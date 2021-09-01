@@ -12,7 +12,7 @@
 
     margin-bottom: 6rem;
 
-    text-align: center;
+    /* text-align: center; */
 }
 
 .fifth-section_content img {
@@ -29,7 +29,7 @@
 
     margin: 3rem 0;
 
-    text-align: center;
+    /* text-align: center; */
 }
 
 .fifth-section_content p {
@@ -40,7 +40,7 @@
 
     margin-bottom: 5rem;
 
-    text-align: justify;
+    /* text-align: justify; */
 }
 
 @media (min-width: 40rem) {
@@ -75,7 +75,7 @@
     .fifth-section_content h1 {
         margin-right: 2.6rem;
 
-        text-align: left;
+        /* text-align: left; */
     }
     
     .fifth-section_content p {
@@ -83,7 +83,7 @@
 
         margin-right: 2.6rem;
 
-        text-align: left;
+        /* text-align: left; */
     }
     
 }

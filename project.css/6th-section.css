@@ -88,9 +88,14 @@ hr {
 #sixth-section_rights {
     font-size: 1.2rem;
 
-    margin: auto;
+
+    /* margin: auto; */
 
     padding-bottom: 4rem;
+}
+
+#sixth-section_rights p {
+    text-align: center;
 }
 
 #sixth-section_links a {
@@ -106,7 +111,6 @@ hr {
 /* .vl {
     border-left: 0.1px solid black;
     height: 10px;
-
     padding: 0.4rem;
 } */
 
@@ -183,6 +187,7 @@ hr {
     .main-footer_2nd {
         display: flex;
         flex-flow: row;
+        justify-content: space-between; 
 
         margin-bottom: 0;
     }
@@ -191,7 +196,13 @@ hr {
         font-size: 0.9rem;
         font-weight: 400; 
 
+        margin-top: 0.7rem;
+
         /* margin: 3rem 0 0 6.25rem;  */
+    }
+
+    #sixth-section_rights p {
+        text-align: left;
     }
     
     #sixth-section_links {

@@ -37,8 +37,8 @@ header div img {
 .first-setion h1 {
     font-weight: 700;
     font-size: 2rem;
-
-    text-align: center;
+/* 
+    text-align: center; */
 
     margin: 3rem auto;
 }
@@ -48,8 +48,8 @@ header div img {
     color: rgba(0, 0, 0, 0.6);
 
     margin: 3rem auto;
-
-    text-align: justify;
+/* 
+    text-align: justify; */
 }
 
 .explore_button span {
@@ -127,11 +127,11 @@ header div img {
     .first-setion h1 {
         font-size: 2.4rem;
         
-        text-align: left;
+        /* text-align: left; */
     }
 
     .first-setion p {
-        text-align: left;
+        /* text-align: left; */
     }
 
     .explore_button {
