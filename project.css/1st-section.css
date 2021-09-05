@@ -30,26 +30,22 @@ header div img {
     width: 2rem;
 }
 
-.first-setion {
+.first-setion_content {
     margin: 15.5rem 1rem 0 1rem;
 }
 
-.first-setion h1 {
+.first-setion_content h1 {
     font-weight: 700;
     font-size: 2rem;
-/* 
-    text-align: center; */
 
     margin: 3rem auto;
 }
 
-.first-setion p {
+.first-setion_content p {
     font-size: 1.25rem;
     color: rgba(0, 0, 0, 0.6);
 
     margin: 3rem auto;
-/* 
-    text-align: justify; */
 }
 
 .explore_button span {
@@ -99,7 +95,8 @@ header div img {
         align-items: center;
         justify-content: space-between;
 
-        padding: 20px 80px;
+        padding: 20px 100px;
+
     }
     
     header a img {
@@ -113,29 +110,37 @@ header div img {
     }
 
     .first-setion {
+
+        width: 100%;
+    }
+
+    .first-setion_content {
+        /* display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center; */
+
         background: white;
 
         box-shadow: 0 0.25rem 6.25rem rgba(0, 0, 0, 0.1);
 
-        width: 50%;
+        max-width: 1440px;
 
-        margin: 13rem 0 0 3.5rem;
+        width: 45%;
 
-        padding: 42px;
+        /* margin: 22rem 0 0 6rem; */
+
+        padding: 3rem 4rem;
+
+        margin: 22rem 0 11rem 3rem;
     }
-  
-    .first-setion h1 {
+
+    .first-setion_content h1 {
         font-size: 2.4rem;
-        
-        /* text-align: left; */
-    }
-
-    .first-setion p {
-        /* text-align: left; */
     }
 
     .explore_button {
         margin: 0;
     }
 
- } 
+} 

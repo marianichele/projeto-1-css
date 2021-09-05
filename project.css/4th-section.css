@@ -49,12 +49,12 @@
     margin-left: 0.25rem;
 }
 
-.fourth-section_images img{
+.fourth-section_image img{
     display: block;
     margin: auto;
 }
 
-.fourth-section_images h1 {
+.fourth-section_image h1 {
     font-size: 1.5rem;
     font-weight: 700;
 
@@ -63,7 +63,7 @@
     margin: 1rem 0;
 }
 
-.fourth-section_images p {
+.fourth-section_image p {
     font-size: 1.2rem;
     font-weight: 700;
 
@@ -74,7 +74,7 @@
     margin-bottom: 0.5rem;
 }
 
-.fourth-section_images a {
+.fourth-section_image a {
     font-size: 1.125rem;
     font-weight: 500;
     
@@ -90,67 +90,51 @@
     .fourth-section {
         display: flex;
         flex-flow: row;
+        justify-content: center;
+        align-items: center;
+
+        width: 100%;
+
+        padding: 0 14rem;
         
-        /* margin: 16.5rem 0 0 6.25rem; */
     }
-
-    .fourth-section_text {
-        padding-left: 2rem;
-
-        margin: 0 2rem
-    }
-
+    
     .fourth-section_text h1 {
         width: 60%;
 
         margin-top: 2rem;
-
-        /* height: 10.7rem; */
-
-        /* margin: 0 8rem 4rem 0; */
-/* 
-        text-align: left; */
-    }
-
-    .fourth-section div {
-        /* margin: 0 3rem 0 0; */
-
-        /* text-align: left; */
     }
 
     .fourth-section_text p {
-        width: 70%;
-        /* height: 2rem; */
+        width: 60%;
 
         font-size: 1.125rem;
-
-        /* text-align: left; */
 
         margin-bottom: auto;
     }
 
     .fourth-section_images {
-        /* margin: 0 0 0 3rem; */
-        margin-left: 3rem;
+        display: flex;
+        flex-flow: row;
 
-        width: 50%;
-        
-        padding: 1rem;
+        width: 100%;
     }
 
-    .fourth-section_images h1,
-    .fourth-section_images p,
-    .fourth-section_images a{
-        text-align: left;
+    .fourth-section_image {
+        padding: 3rem; 
+    }
 
-        margin-left: 1rem;
+    .fourth-section_image h1,
+    .fourth-section_image p,
+    .fourth-section_image a{
+        text-align: left;
     }
 
     .start_button {
         display: block;
         align-items: left;
 
-        margin: 5.5rem 0; 
+        margin: 3rem 0; 
     }
 
     .start_button span {

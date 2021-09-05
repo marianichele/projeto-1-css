@@ -48,18 +48,25 @@
         display: flex;
         flex-flow: column;
     
-        margin-left: 6.25rem;
+        padding: 0 6.25rem;
     }
     
     .fifth-section_contents {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
     
-        margin-right: 6.25rem;
+        padding: 6rem;
     }
 
     .fifth-section_title {
+        display: flex;
+        justify-content: flex-start;
+
+        padding: 0 6.25rem;
+
         text-align: left;
+
     }
     
     .fifth-section_content {
