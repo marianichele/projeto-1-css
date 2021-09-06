@@ -71,6 +71,8 @@
 
     .third-section_contents {
         display: flex;
+
+        width: 85%;
         /* justify-content: space-between; */
 
 /*
@@ -83,15 +85,19 @@
         display: flex;
         flex-flow: column;
 
+        width: 30%;
+
+        padding: 1rem;
+
     }
 
     .third-section_title {
         display: flex;
         flex-flow: row;
 
-        width: 100%;
+        width: 85%;
 
-        padding-left: 16rem;
+        padding-left: auto;
 
         font-weight: 700;
         font-size: 2.25rem;
@@ -105,10 +111,10 @@
         width: 2rem;
         height: 2rem;
     }
-
+/* 
     .third-section_margin {
         margin-right: 3rem;
-    }
+    } */
 
     .third-section_contents h1 {
         font-weight: 700;
