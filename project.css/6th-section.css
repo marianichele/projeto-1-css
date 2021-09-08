@@ -78,18 +78,12 @@ hr {
 }
 
 .sixth-section_footer {
-    /* display: flex;
-    flex-flow: column;   */
-
     text-align: center;
 }
 
 
 #sixth-section_rights {
     font-size: 1.2rem;
-
-
-    /* margin: auto; */
 
     padding-bottom: 4rem;
 }
@@ -108,16 +102,14 @@ hr {
     color: #000000;
 }
 
-/* .vl {
-    border-left: 0.1px solid black;
-    height: 10px;
-    padding: 0.4rem;
-} */
-
 @media (min-width: 40rem) {
     .main-footer {
         display: flex;
         flex-flow: column;
+        justify-content: center;
+        align-items: center;
+
+        width: 100%;
 
         margin: 0;
     }
@@ -125,21 +117,16 @@ hr {
     .sixth-section_contents {
         display: flex;
         flex-flow: row;
+        justify-content: center;
 
         margin: 3rem 0 0 7rem;
 
-        padding: 0 2rem;
-
         width: 70%;
-
-        /* margin-left: 8rem; */
     }
     
     .sixth-section_title {
         display: flex;
         flex-flow: column;
-
-        /* margin: 0 0 0 6.4rem; */
 
         padding: 0 5rem;
 
@@ -152,8 +139,6 @@ hr {
     }
 
     .sixth-section_content {
-        /* margin: 3rem 9rem 0 0; */
-
         padding: 0 2rem;
 
         width: 80%;
@@ -198,8 +183,6 @@ hr {
         font-weight: 400; 
 
         margin-top: 0.7rem;
-
-        /* margin: 3rem 0 0 6.25rem;  */
     }
 
     #sixth-section_rights p {
@@ -209,15 +192,11 @@ hr {
     #sixth-section_links {
         display: flex;
         flex-flow: row;  
-       
-        /* margin: 0 0 0 36rem;  */
     }
 
     #sixth-section_links a { 
         font-size: 0.9rem;
         font-weight: 400; 
-
-        /* margin-right: 3rem;  */
     }
 
     .main-footer_2nd {
@@ -234,22 +213,16 @@ hr {
         font-weight: 400; 
 
         margin-left: 3.5rem; 
-
-        /* margin: 3rem 0 0 6.25rem;  */
     }
 
     #sixth-section_links {
         display: flex;
         flex-flow: row;
-
-        /* margin: 0 0 0 36rem;  */
     }
 
     #sixth-section_links a { 
         font-size: 0.9rem;
         font-weight: 400; 
-
-        /* margin-right: 3rem;  */
     }
 
 

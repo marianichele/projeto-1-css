@@ -11,15 +11,16 @@
     font-weight: 700;
 
     margin-bottom: 6rem;
-
-    /* text-align: center; */
 }
 
 .fifth-section_content img {
     width: 2rem;
     height: 2rem;
 
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     margin: auto;
 }
 
@@ -28,8 +29,6 @@
     font-weight: 700;
 
     margin: 3rem 0;
-
-    /* text-align: center; */
 }
 
 .fifth-section_content p {
@@ -39,8 +38,6 @@
     color: rgba(0, 0, 0, 0.5);
 
     margin-bottom: 5rem;
-
-    /* text-align: justify; */
 }
 
 @media (min-width: 40rem) {
@@ -48,7 +45,9 @@
         display: flex;
         flex-flow: column;
     
-        padding: 0 6.25rem;
+        width: 100%;
+
+        padding: 0 1rem;
     }
     
     .fifth-section_contents {
@@ -81,16 +80,12 @@
 
     .fifth-section_content h1 {
         margin-right: 2.6rem;
-
-        /* text-align: left; */
     }
     
     .fifth-section_content p {
         font-size: 0.9rem;
 
         margin-right: 2.6rem;
-
-        /* text-align: left; */
     }
     
 }

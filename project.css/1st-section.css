@@ -31,7 +31,7 @@ header div img {
 }
 
 .first-setion_content {
-    margin: 15.5rem 1rem 0 1rem;
+    margin: 17rem 1rem 0 1rem;
 }
 
 .first-setion_content h1 {
@@ -115,20 +115,15 @@ header div img {
     }
 
     .first-setion_content {
-        /* display: flex;
-        flex-flow: column;
-        justify-content: center;
-        align-items: center; */
-
         background: white;
+
+        margin-top: auto;
 
         box-shadow: 0 0.25rem 6.25rem rgba(0, 0, 0, 0.1);
 
         max-width: 1440px;
 
         width: 45%;
-
-        /* margin: 22rem 0 0 6rem; */
 
         padding: 3rem 4rem;
 
